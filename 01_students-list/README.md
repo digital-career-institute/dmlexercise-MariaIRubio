@@ -35,7 +35,7 @@ grade (float)
     -> id INT,
     -> name VARCHAR(50),
     -> age INT,
-    -> grade DECIMAL,
+    -> grade FLOAT,
     -> PRIMARY KEY(id)
     -> );
 > mysql> DESCRIBE students;
@@ -45,7 +45,7 @@ grade (float)
 | id     | int           | NO   | PRI | NULL    |       |
 | name   | varchar(50)   | YES  |     | NULL    |       |
 | age    | int           | YES  |     | NULL    |       |
-| grade  | decimal(10,0) | YES  |     | NULL    |       |
+| grade  | float         | YES  |     | NULL    |       |
 | adress | varchar(100)  | YES  |     | NULL    |       |
 +--------+---------------+------+-----+---------+-------+
 
